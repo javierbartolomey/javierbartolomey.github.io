@@ -19,10 +19,11 @@
     </h1>
     <p>Javascript es un llenguatge de programacio per pagines web</p>
     <p>ens ajuda a fer que les nostres pagines siguin interactives</p>
-    <script>
-        alert("Soc un misstage de alerta");
-    </script>
+
     <p>Ara veuras que passa quan clicam en aquest boto</p>
     <button onclick="alert('Hola, gracies per clicar')">Clica'm</button>
+    <h2>Boto que mostra la data</h2>
+    <button onclick="document.getElementById(data).innerHTML=Date()">Mostra la data i hora</button>
+    <p id="data"></p>
 </body>
 </html>
